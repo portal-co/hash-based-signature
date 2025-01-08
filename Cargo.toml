@@ -2,6 +2,8 @@
 name = "hash-based-signature"
 version = "0.1.0"
 edition = "2021"
+license = "CC0-1.0"
+description = "Hash-based signatures"
 
 [dependencies]
 digest = { version = "0.10.7", default-features = false }
