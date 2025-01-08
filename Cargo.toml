@@ -1,0 +1,14 @@
+[package]
+name = "hash-based-signature"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+digest = { version = "0.10.7", default-features = false }
+generic-array = { version = "0.14.7", default-features = false }
+serde = { version = "1.0.217", default-features = false, features = ["derive"], optional = true }
+signature = { version = "2.2.0", default-features = false }
+typenum = { version = "1.17.0", default-features = false }
+
+[features]
+serde = ["dep:serde","generic-array/serde"]
