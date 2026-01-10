@@ -1,13 +1,14 @@
 # hash-based-signature
 
 ## Description
-Project hash-based-signature
+Implementation of hash-based digital signatures, suitable for embedded environments.
 
 ## Goals
-- [ ] Add project goals
+- [ ] Implement signature schemes (e.g., SPHINCS+, XMSS)
+- [ ] Support `no_std` and embedded I/O
 
 ## Progress
-- [ ] Initial setup
+- [ ] Crate initialized with `signature` traits
 
 ---
 *AI assisted*
